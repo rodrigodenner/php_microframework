@@ -6,13 +6,16 @@
             "email": "109491106+rodrigodenner@users.noreply.github.com"
         }
     ],
-    "require": {},
+    "require": {
+        "filp/whoops": "^2.15"
+    },
     "autoload": {
         "psr-4": {
             "app\\":"app"
         },
         "files": [
-            "app/helpers/exception.php"
+            "app/helpers/exception.php",
+            "app/helpers/constants.php"
         ]
     }
 }

@@ -7,14 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'app\\interfaces\\ActiveRecordExecuteInterface' => $baseDir . '/app/interfaces/ActiveRecordExecuteInterface.php',
-    'app\\interfaces\\ActiveRecordInterface' => $baseDir . '/app/interfaces/ActiveRecordInterface.php',
-    'app\\models\\activerecord\\ActiveRecord' => $baseDir . '/app/models/activerecord/ActiveRecord.php',
-    'app\\models\\activerecord\\Delete' => $baseDir . '/app/models/activerecord/Delete.php',
-    'app\\models\\activerecord\\Find' => $baseDir . '/app/models/activerecord/Find.php',
-    'app\\models\\activerecord\\FindAll' => $baseDir . '/app/models/activerecord/FindAll.php',
-    'app\\models\\activerecord\\FindBy' => $baseDir . '/app/models/activerecord/FindBy.php',
-    'app\\models\\activerecord\\Insert' => $baseDir . '/app/models/activerecord/Insert.php',
-    'app\\models\\activerecord\\Update' => $baseDir . '/app/models/activerecord/Update.php',
-    'app\\models\\connection\\Connection' => $baseDir . '/app/models/connection/Connection.php',
 );
