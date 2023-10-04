@@ -9,14 +9,17 @@ class Products
 
   public function index(array $args)
   {
-    $this->view = 'products.php';
-    $this->data =[
-      'title' => 'Products'
+    $this->view = 'edit.php';
+    $this->data = [
+      'title'=>'Edit'
     ];
   }
 
   public function edit(array $args)
   {
-    
+    $this->view = 'edit.php';
+    $this->data = [
+      'title'=>'Edit'
+    ];
   }
 }
