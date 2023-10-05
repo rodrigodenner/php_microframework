@@ -6,11 +6,11 @@
   <title><?= $title?></title>
 </head>
 <body>
-  <h2>Curso de MVC 2021</h2>
-
-  
   <div class="container">
-    <?php require VIEW_PATH.$this->controller->view ?>
+  <h3><a href="/">Home</a></h3>
+  <h3><a href="/singup">SingUp</a></h3>
+  <h3><a href="/login">Login</a></h3>
+  <?php require VIEW_PATH.$this->controller->view ?>
   </div>
 
 </body>
