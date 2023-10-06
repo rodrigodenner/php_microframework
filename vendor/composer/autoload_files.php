@@ -8,4 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     '712415ee9d1a8e18d3220bc611047e20' => $baseDir . '/app/helpers/exception.php',
     '51fb66cb4c317e2f88e140a8b895b83a' => $baseDir . '/app/helpers/constants.php',
+    '9792ac317540803c00e7fea6f4defbad' => $baseDir . '/app/helpers/flash.php',
+    'de4e00dbdfa21594ac9eb2480b0677e1' => $baseDir . '/app/helpers/redirect.php',
 );
