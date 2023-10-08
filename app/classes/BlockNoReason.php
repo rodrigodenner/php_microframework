@@ -11,11 +11,7 @@ class BlockNoReason
   $blockMethod = Block::getMethodToBlock($controllerInterface,$blockMethod);
 
   if($blockMethod){
-    if($_SERVER['REQUEST_METHOD']=== 'POST'){
-      // var_dump ('Not Allwed');
-      require VIEW_PATH.'denied.php';
-      die();
-    }
+    BlockPostRequest::block();
     return redirect('/');
   }
  }     

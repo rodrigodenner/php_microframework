@@ -12,6 +12,8 @@ class BlockNotLogged
   $blockMethod = Block::getMethodToBlock($controllerInterface,$blockMethod);
 
   if(!isset($_SESSION['user'])and $blockMethod){
+    BlockPostRequest::block();
+    
     return redirect('/');
   }
  }   
