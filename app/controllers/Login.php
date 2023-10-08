@@ -26,17 +26,22 @@ class Login
     $user = new User;
     $userFound = $user->execute(new FindBy(field:'email',value:$email,fields:'firstname,lastname,password'));
     
-    if(!$userFound){
-      Flash::set('login','Usuário ou senha invalido');
+    if (!$userFound) {
+      Flash::set('login', 'Usuário ou senha inválidos');
       return redirect('/login');
-    }
+  }
 
     $passwordMatch = password_verify($password, $userFound->password);
-    var_dump ($password);
-    die();
+      
     if (!$passwordMatch) {
       Flash::set('login', 'Usuário ou senha inválidos');
       return redirect('/login');
     }
+
+    unset($userFound->password);
+
+    $_SESSION['user'] = $userFound;
+
+    return redirect('/');
   }
 }
