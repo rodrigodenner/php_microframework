@@ -27,9 +27,11 @@ class Singup
       'password'=>[REQUIRED,MAXLEN.':10'],
     ]);
 
-    // if($validate->errors){
-
-    // }
+    if($validate->errors){
+      return redirect('/singup');
+    }
+    var_dump ($validate->data);
+    die();
   }
 
 }

@@ -11,7 +11,8 @@
     <input type="email" name="email" id="email" placeholder="email">
   </label>
   <label for="password">
-    <input type="password" name="password" id="password" placeholder="password">
+    <input type="password" name="password" id="password" placeholder="Password" >
+
   </label>
   <button type="submit">SingUp</button>
 </form>

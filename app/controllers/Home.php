@@ -12,7 +12,7 @@ class Home
 
   public function index()
   {
-    $users = (new User)->execute(new FindAll(fields:'id,firstName,LastName'));
+    $users = (new User)->execute(new FindAll(fields:'id,firstname,lastname'));
   
     $this->view = 'home.php';
     $this->data = [

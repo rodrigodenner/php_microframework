@@ -4,12 +4,11 @@ require "../vendor/autoload.php";
 
 use Whoops\Handler\PrettyPageHandler;
 
-
 $whoops = new \Whoops\Run;
 $whoops->pushHandler(new PrettyPageHandler);
 $whoops->allowQuit(false);
 $whoops->writeToOutput(false);
-$whoops->register();
+
 
 use app\core\AppExtract;
 use app\core\MyApp;
