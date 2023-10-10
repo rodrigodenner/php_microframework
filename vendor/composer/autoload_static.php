@@ -12,6 +12,7 @@ class ComposerStaticInit95ffc28d790659eb4faf4aff6984ac5c
         '9792ac317540803c00e7fea6f4defbad' => __DIR__ . '/../..' . '/app/helpers/flash.php',
         'de4e00dbdfa21594ac9eb2480b0677e1' => __DIR__ . '/../..' . '/app/helpers/redirect.php',
         'a1964d674a24e6676622637cba8f6e2b' => __DIR__ . '/../..' . '/app/helpers/session.php',
+        'afc60094d58d97c54e4319ad9c807203' => __DIR__ . '/../..' . '/app/helpers/old.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -99,6 +100,7 @@ class ComposerStaticInit95ffc28d790659eb4faf4aff6984ac5c
         'app\\interfaces\\ActiveRecordInterface' => __DIR__ . '/../..' . '/app/interfaces/ActiveRecordInterface.php',
         'app\\interfaces\\AppInterface' => __DIR__ . '/../..' . '/app/interfaces/AppInterface.php',
         'app\\interfaces\\ControllerInterface' => __DIR__ . '/../..' . '/app/interfaces/ControllerInterface.php',
+        'app\\interfaces\\ValidateInterface' => __DIR__ . '/../..' . '/app/interfaces/ValidateInterface.php',
         'app\\models\\User' => __DIR__ . '/../..' . '/app/models/User.php',
         'app\\models\\activerecord\\ActiveRecord' => __DIR__ . '/../..' . '/app/models/activerecord/ActiveRecord.php',
         'app\\models\\activerecord\\Delete' => __DIR__ . '/../..' . '/app/models/activerecord/Delete.php',

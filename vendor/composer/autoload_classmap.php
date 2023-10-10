@@ -60,6 +60,7 @@ return array(
     'app\\interfaces\\ActiveRecordInterface' => $baseDir . '/app/interfaces/ActiveRecordInterface.php',
     'app\\interfaces\\AppInterface' => $baseDir . '/app/interfaces/AppInterface.php',
     'app\\interfaces\\ControllerInterface' => $baseDir . '/app/interfaces/ControllerInterface.php',
+    'app\\interfaces\\ValidateInterface' => $baseDir . '/app/interfaces/ValidateInterface.php',
     'app\\models\\User' => $baseDir . '/app/models/User.php',
     'app\\models\\activerecord\\ActiveRecord' => $baseDir . '/app/models/activerecord/ActiveRecord.php',
     'app\\models\\activerecord\\Delete' => $baseDir . '/app/models/activerecord/Delete.php',
